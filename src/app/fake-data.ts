@@ -16,3 +16,4 @@ export const fakeListings: Listing[] = [{
     description: 'Good condition, free delivery',
     price: 100,
 }];
+

@@ -6,9 +6,11 @@ import { AppComponent } from './app.component';
 import { ListingsPageComponent } from './listings-page/listings-page.component';
 import { ListingDetailsComponent } from './listing-details/listing-details.component';
 import { ContactPageComponent } from './contact-page/contact-page.component';
-import { MyListingsPageComponent } from './my-listings-page/my-listings-page.component';
+
 import { NewListingsPageComponent } from './new-listings-page/new-listings-page.component';
 import { EditListingPageComponent } from './edit-listing-page/edit-listing-page.component';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -16,13 +18,13 @@ import { EditListingPageComponent } from './edit-listing-page/edit-listing-page.
     ListingsPageComponent,
     ListingDetailsComponent,
     ContactPageComponent,
-    MyListingsPageComponent,
     NewListingsPageComponent,
     EditListingPageComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
